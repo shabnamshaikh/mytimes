@@ -32,3 +32,92 @@ padding-right: 20px;
 a {
   color: black;
 }
+
+.maincontent {
+  display: flex;
+  padding-top: 40px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+
+.firstline {
+  border: 1px solid black;
+}
+.firstnews {
+  border: 1px solid black;
+  background-image: url("../images/storymain.png");
+  height: 300px;
+  font-size: 40px;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+.pnews {
+  border: 1px solid black;
+}
+
+.secstory {
+  border: 2px solid black;
+}
+
+.secstory h2 {
+  font-weight: bold;
+}
+
+.thirdstory {
+  border: 1px solid black;
+  background-image: url("../images/story2.png");
+  text-align:center;
+  font-size: 30px;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+.forthstory {
+  border: 2px solid black;
+}
+.forthstory h2 {
+  font-weight: bold;
+
+}
+.cameras {
+  border: 1px solid black;
+  background-image: url("../images/story3.png");
+  text-align:center;
+  font-size: 30px;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+.fifthstory {
+  border: 1px solid black;
+}
+.fifthspan {
+
+  background-image: url("../images/story1.png");
+  text-align:center;
+  font-size: 30px;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+}

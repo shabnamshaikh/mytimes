@@ -1,0 +1,29 @@
+/* container info */
+.container {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo span {
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
+
+.nav {
+padding-right: 20px;
+}
+
+.nav span {
+  display: inline-block;
+  padding-right: 20px;
+}
